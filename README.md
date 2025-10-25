@@ -18,7 +18,7 @@ A simple Node.js & Express app for user signup and login with MongoDB. Passwords
 ## Setup
 1. Clone the repository:
 ```bash
-git clone <repo-url>
+git clone https://github.com/Riyajindal525/userAuth-app.git
 
 2. Install dependencies:
 
