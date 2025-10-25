@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User App | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0,0,0,0.6);
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .signup {
+            background-color: #ff7f50;
+            color: white;
+        }
+        .signup:hover {
+            background-color: #ff6333;
+        }
+        .login {
+            background-color: #1e90ff;
+            color: white;
+        }
+        .login:hover {
+            background-color: #007acc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to UserApp</h1>
+        <p>Sign up to create an account or log in to continue.</p>
+        <a href="/user/signup" class="btn signup">Sign Up</a>
+        <a href="/user/login" class="btn login">Login</a>
+    </div>
+</body>
+</html>
